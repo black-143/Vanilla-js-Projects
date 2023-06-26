@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 4rem;
+    right: 5rem;
+}
+.back:hover{
+    cursor: pointer;
+}
+.gallery-cont{
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;
+}
